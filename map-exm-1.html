@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map example </title>
+</head>
+<body>
+
+    <script>
+
+        var a=[
+            {name:"Krishna",course:"React"},
+            {name:"Shrinath",course:"SAP"},
+            {name:"Heer",course:"Java"}
+        ]
+
+        var details=a.map((v)=>{
+            return v.name + ":" + v.course + "<br>"
+        })
+
+        document.write(details)
+    </script>
+    
+</body>
+</html>
